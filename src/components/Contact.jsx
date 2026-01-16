@@ -36,7 +36,7 @@ const Contact = () => {
                             <label htmlFor="name" className="block text-sm font-medium mb-2">
                                 Name
                             </label>
-                            <input
+                            <input required
                                 onChange={handleChange}
                                 type="text"
                                 id="name"
@@ -51,7 +51,7 @@ const Contact = () => {
                             <label htmlFor="email" className="block text-sm font-medium mb-2">
                                 Email
                             </label>
-                            <input
+                            <input required
                                 onChange={handleChange}
                                 type="email"
                                 id="email"
@@ -66,7 +66,7 @@ const Contact = () => {
                             <label htmlFor="message" className="block text-sm font-medium mb-2">
                                 Message
                             </label>
-                            <textarea
+                            <textarea required
                                 onChange={handleChange}
                                 type="text"
                                 id="message"

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import { useState } from 'react'
 import { Mail, Github, Linkedin, Twitter } from 'lucide-react'
@@ -20,7 +21,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log('Form submitted:', formData)
-        alert('Message sent! (This is a demo—connect to a backend later)')
+        alert(`${formData.name}! Message Sent!!`)
         setFormData({ name: '', email: '', message: '' })
     }
     return (

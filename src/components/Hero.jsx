@@ -1,5 +1,5 @@
 import React from 'react'
-import { Github, Linkedin, Twitter } from 'lucide-react'
+import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
 
 const Hero = () => {
     return (
@@ -17,7 +17,7 @@ const Hero = () => {
                     </p>
                     <div className='flex justify-center gap-4 mb-8'>
                         <a href="#projects" className='bg-blue-500 hover:bg-opacity-75 text-white px-8 py-4 rounded-lg font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 '> View Projects </a>
-                        <a href="#contact" className='border-2 border-blue-500 hover:bg-blue-600 hover:bg-blue-500 text-blue-500   hover:text-white rounded-lg font-semibold transition delay-150 duration-300 px-8 py-4 ease-in-out hover:-translate-y-1'>Contact Me</a>
+                        <a href="#contact" className='border-2 border-blue-500 hover:bg-blue-600  text-blue-500   hover:text-white rounded-lg font-semibold transition delay-150 duration-300 px-8 py-4 ease-in-out hover:-translate-y-1'>Contact Me</a>
                     </div>
                     {/* Social Media Links */}
                     <div className="flex gap-6 justify-center">
@@ -29,6 +29,9 @@ const Hero = () => {
                         </a>
                         <a href="https://twitter.com/@HassanPopey" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition">
                             <Twitter size={28} />
+                        </a>
+                        <a href="mailto:hassanahmadtijjani26@gmail.com" className="text-slate-300 hover:text-white transition">
+                            <Mail size={28} />
                         </a>
                     </div>
                 </div>

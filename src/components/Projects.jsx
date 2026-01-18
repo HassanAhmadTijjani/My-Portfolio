@@ -79,10 +79,10 @@ const Projects = () => {
                             </div>
 
                             <div className="p-6">
-                                <h3 className="text-2xl font-bold mb-3">Weather App</h3>
+                                <h3 className="text-2xl font-bold mb-3">Crypto-Tracker</h3>
 
                                 <p className="text-slate-300 mb-4">
-                                    A responsive weather application that fetches real-time weather data. Clean UI with current conditions and forecasts.
+                                    A responsive crypto application that fetches real-time weather data of wide veriety of currencies. Clean UI with current condition.
                                 </p>
 
                                 <div className="flex flex-wrap gap-2 mb-4">
@@ -91,11 +91,11 @@ const Projects = () => {
                                 </div>
 
                                 <div className="flex gap-4">
-                                    <a href="https://github.com/yourusername/weather-app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-300 hover:text-white transition">
+                                    <a href="https:https://github.com/HassanAhmadTijjani/crypto-tracker" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-300 hover:text-white transition">
                                         <Github size={20} />
                                         <span>Code</span>
                                     </a>
-                                    <a href="#" className="flex items-center gap-2 text-slate-300 hover:text-white transition">
+                                    <a href="https://crypto-tracker-ygxm.vercel.app/" className="flex items-center gap-2 text-slate-300 hover:text-white transition">
                                         <ExternalLink size={20} />
                                         <span>Demo</span>
                                     </a>

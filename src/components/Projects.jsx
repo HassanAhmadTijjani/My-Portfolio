@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react'
+import { ExternalLink, Github, Bitcoin } from 'lucide-react'
 import React from 'react'
 
 const Projects = () => {
@@ -75,7 +75,7 @@ const Projects = () => {
                         {/* Weather App */}
                         <div className="bg-slate-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition duration-300">
                             <div className="h-48 bg-gradient-to-r from-yellow-500 to-orange-600 flex items-center justify-center">
-                                <span className="text-6xl">🌤️</span>
+                                <span className="text-6xl"><Bitcoin className='text-white'/></span>
                             </div>
 
                             <div className="p-6">
